@@ -1,0 +1,8 @@
+Git with linux
+
+$ mkdir my-git-repo
+$ cd my-git-repo
+$ git init
+$ git config --global user.name "Name"
+$ git config --global user.email "user@example.com"
+
