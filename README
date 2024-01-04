@@ -6,3 +6,17 @@ $ git init
 $ git config --global user.name "Name"
 $ git config --global user.email "user@example.com"
 
+use git status and git add, change the file again and check difference
+
+$ git status
+$ git add README
+$ git commit
+$ git status
+
+change README
+
+$ git diff README
+$ git add README
+$ git status
+$ git commit -m "Second short commit"
+$ git log
